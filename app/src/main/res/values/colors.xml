@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#34B233</color>
+    <color name="colorPrimaryDark">#1E5337</color>
+    <color name="transparentColor">#00000000</color>
+    <color name="accentColor">#E9A70A</color>
+    <color name="white">#FFFFFF</color>
+
+    <!-- Background color for light LeBubbleView. -->
+    <color name="bubbleView_light_background">#CCFFFFFF</color>
+    <!-- Background color for dark LeBubbleView. -->
+    <color name="bubbleView_dark_background">#CC000000</color>
+    <!-- text color for light LeBubbleTextView. -->
+    <color name="bubbleView_light_text_color">#CC323C49</color>
+    <!-- text color for dark LeBubbleTextView. -->
+    <color name="bubbleView_dark_text_color">#CCFFFFFF</color>
+    <!-- press Background color for light LeBubbleView. -->
+    <color name="bubbleView_light_press_background">#E6FFFFFF</color>
+    <!-- press Background color for dark LeBubbleView. -->
+    <color name="bubbleView_dark_press_background">#E6000000</color>
+
+    <array name="progress_colors_light">
+        <item>#FF03A9F4</item>
+        <item>#FFD8433C</item>
+        <item>#FFF2AF3A</item>
+        <item>#FF279B5E</item>
+    </array>
+</resources>

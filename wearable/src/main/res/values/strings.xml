@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Pay Yourself First</string>
+    <string name="hello_round">Hello Round World!</string>
+    <string name="hello_square">Hello Square World!</string>
+    <string name="monthly_cash_flow">Monthly Cash Flow</string>
+    <string name="december_cash_flow">December Cash Flow</string>
+    <string name="pyf_title">Pay Yourself First</string>
+    <string name="pyf_recommend">Recommended Pay Yourself First Amount</string>
+
+
+
+</resources>

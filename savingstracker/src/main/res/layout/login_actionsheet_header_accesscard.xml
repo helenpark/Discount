@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style = "@style/Layout.PopupHeader" >
+
+    <TextView
+        android:id="@+id/textView1"
+        style="@style/Txt.PopHeader"
+        android:text="@string/secureLoginMultiHeader"/>
+
+    <Button
+        android:id="@+id/bn_done"
+        style="@style/Btn_Popup"
+        android:text="@string/secureLoginMultiButtonEdit" />
+        
+</LinearLayout>

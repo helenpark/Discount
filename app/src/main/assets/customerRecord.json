@@ -1,0 +1,482 @@
+{
+    "accountBalance": 250.23, 
+    "credit_cards": [
+        {
+            "credit_balance": 1433.14,
+            "credit_limit": 1000.0, 
+            "cashback": 0.00,
+            "name": "TD Green Visa",
+            "annual_purchase_rate": 19.99,
+            "rewards" : 0.00,
+            "rewards_category" : "none"
+        }, 
+        {
+            "credit_balance": 364.73,
+            "credit_limit": 2000.0,
+            "cashback": 0.075,
+            "name": "TD Cash Back MasterCard",
+            "annual_purchase_rate": 19.99,
+            "rewards" : 0.00,
+            "rewards_category" : "none"
+        }, 
+        {
+            "credit_balance": 11109.82,
+            "credit_limit": 2500.0,
+            "cashback": 0.00,
+            "name": "TD Drivers Rewards Visa",
+            "annual_purchase_rate": 19.99,
+            "rewards" : 0.00,
+            "rewards_category" : "travel"
+        }, 
+        {
+            "credit_balance": 1176.6,
+            "credit_limit": 3000.0,
+            "cashback": 0.01,
+            "name": "TD Gold Elite Visa",
+            "annual_purchase_rate": 19.99,
+            "rewards" : 0.00,
+            "rewards_category" : "none"
+        }
+    ], 
+    "name": "Joshua Hill", 
+    "transactions": [
+        {
+            "date": "11/15/2015", 
+            "cost": 4.99, 
+            "name": "Spotify", 
+            "id": "1"
+        }, 
+        {
+            "date": "11/13/2015", 
+            "cost": 3.42, 
+            "name": "Balzacs", 
+            "id": "2"
+        }, 
+        {
+            "date": "11/13/2015", 
+            "cost": 141.86, 
+            "name": "Shawerma Plus", 
+            "id": "3"
+        }, 
+        {
+            "date": "11/09/2015", 
+            "cost": 79.23, 
+            "name": "Balzacs", 
+            "id": "4"
+        }, 
+        {
+            "date": "11/09/2015", 
+            "cost": 95.95, 
+            "name": "Shawerma Plus", 
+            "id": "5"
+        }, 
+        {
+            "date": "11/09/2015", 
+            "cost": 23.68, 
+            "name": "Balzacs", 
+            "id": "6"
+        }, 
+        {
+            "date": "11/02/2015", 
+            "cost": 9.99, 
+            "name": "Netflix", 
+            "id": "7"
+        }, 
+        {
+            "date": "10/31/2015", 
+            "cost": 109.9, 
+            "name": "Uber", 
+            "id": "8"
+        }, 
+        {
+            "date": "10/18/2015", 
+            "cost": 19.38, 
+            "name": "Balzacs", 
+            "id": "9"
+        }, 
+        {
+            "date": "10/16/2015", 
+            "cost": 36.11, 
+            "name": "Sobeys", 
+            "id": "10"
+        }, 
+        {
+            "date": "10/15/2015", 
+            "cost": 4.99, 
+            "name": "Spotify", 
+            "id": "11"
+        }, 
+        {
+            "date": "10/02/2015", 
+            "cost": 9.99, 
+            "name": "Netflix", 
+            "id": "12"
+        }, 
+        {
+            "date": "09/20/2015", 
+            "cost": 134.56, 
+            "name": "Balzacs", 
+            "id": "13"
+        }, 
+        {
+            "date": "09/15/2015", 
+            "cost": 4.99, 
+            "name": "Spotify", 
+            "id": "14"
+        }, 
+        {
+            "date": "09/12/2015", 
+            "cost": 6.33, 
+            "name": "Uber", 
+            "id": "15"
+        }, 
+        {
+            "date": "09/03/2015", 
+            "cost": 55.32, 
+            "name": "Sobeys", 
+            "id": "16"
+        }, 
+        {
+            "date": "09/02/2015", 
+            "cost": 9.99, 
+            "name": "Netflix", 
+            "id": "17"
+        }, 
+        {
+            "date": "08/17/2015", 
+            "cost": 30.49, 
+            "name": "Shawerma Plus", 
+            "id": "18"
+        }, 
+        {
+            "date": "08/15/2015", 
+            "cost": 4.99, 
+            "name": "Spotify", 
+            "id": "19"
+        }, 
+        {
+            "date": "08/15/2015", 
+            "cost": 17.11, 
+            "name": "Shawerma Plus", 
+            "id": "20"
+        }, 
+        {
+            "date": "08/02/2015", 
+            "cost": 9.99, 
+            "name": "Netflix", 
+            "id": "21"
+        }, 
+        {
+            "date": "07/28/2015", 
+            "cost": 111.95, 
+            "name": "Uber", 
+            "id": "22"
+        }, 
+        {
+            "date": "07/27/2015", 
+            "cost": 63.22, 
+            "name": "Uber", 
+            "id": "23"
+        }, 
+        {
+            "date": "07/26/2015", 
+            "cost": 48.71, 
+            "name": "Uber", 
+            "id": "24"
+        }, 
+        {
+            "date": "07/23/2015", 
+            "cost": 132.81, 
+            "name": "Uber", 
+            "id": "25"
+        }, 
+        {
+            "date": "07/21/2015", 
+            "cost": 108.62, 
+            "name": "Uber", 
+            "id": "26"
+        }, 
+        {
+            "date": "07/17/2015", 
+            "cost": 137.43, 
+            "name": "Uber", 
+            "id": "27"
+        }, 
+        {
+            "date": "07/16/2015", 
+            "cost": 118.17, 
+            "name": "Sobeys", 
+            "id": "28"
+        }, 
+        {
+            "date": "07/15/2015", 
+            "cost": 4.99, 
+            "name": "Spotify", 
+            "id": "29"
+        }, 
+        {
+            "date": "07/07/2015", 
+            "cost": 99.34, 
+            "name": "Sobeys", 
+            "id": "30"
+        }, 
+        {
+            "date": "07/02/2015", 
+            "cost": 9.99, 
+            "name": "Netflix", 
+            "id": "31"
+        }, 
+        {
+            "date": "06/30/2015", 
+            "cost": 108.57, 
+            "name": "Uber", 
+            "id": "32"
+        }, 
+        {
+            "date": "06/29/2015", 
+            "cost": 90.01, 
+            "name": "Uber", 
+            "id": "33"
+        }, 
+        {
+            "date": "06/28/2015", 
+            "cost": 72.49, 
+            "name": "Sobeys", 
+            "id": "34"
+        }, 
+        {
+            "date": "06/27/2015", 
+            "cost": 87.37, 
+            "name": "Balzacs", 
+            "id": "35"
+        }, 
+        {
+            "date": "06/14/2015", 
+            "cost": 93.89, 
+            "name": "Uber", 
+            "id": "36"
+        }, 
+        {
+            "date": "06/09/2015", 
+            "cost": 113.53, 
+            "name": "Shawerma Plus", 
+            "id": "37"
+        }, 
+        {
+            "date": "06/03/2015", 
+            "cost": 88.51, 
+            "name": "Sobeys", 
+            "id": "38"
+        }, 
+        {
+            "date": "06/02/2015", 
+            "cost": 9.99, 
+            "name": "Netflix", 
+            "id": "39"
+        }, 
+        {
+            "date": "05/21/2015", 
+            "cost": 54.13, 
+            "name": "Shawerma Plus", 
+            "id": "40"
+        }, 
+        {
+            "date": "05/20/2015", 
+            "cost": 74.12, 
+            "name": "Shawerma Plus", 
+            "id": "41"
+        }, 
+        {
+            "date": "05/18/2015", 
+            "cost": 61.01, 
+            "name": "Sobeys", 
+            "id": "42"
+        }, 
+        {
+            "date": "05/02/2015", 
+            "cost": 9.99, 
+            "name": "Netflix", 
+            "id": "43"
+        }, 
+        {
+            "date": "04/28/2015", 
+            "cost": 113.16, 
+            "name": "Shawerma Plus", 
+            "id": "44"
+        }, 
+        {
+            "date": "04/23/2015", 
+            "cost": 82.76, 
+            "name": "Balzacs", 
+            "id": "45"
+        }, 
+        {
+            "date": "04/19/2015", 
+            "cost": 76.11, 
+            "name": "Uber", 
+            "id": "46"
+        }, 
+        {
+            "date": "04/16/2015", 
+            "cost": 51.38, 
+            "name": "Uber", 
+            "id": "47"
+        }, 
+        {
+            "date": "04/16/2015", 
+            "cost": 26.33, 
+            "name": "Uber", 
+            "id": "48"
+        }, 
+        {
+            "date": "04/15/2015", 
+            "cost": 88.9, 
+            "name": "Shawerma Plus", 
+            "id": "49"
+        }, 
+        {
+            "date": "04/07/2015", 
+            "cost": 130.03, 
+            "name": "Sobeys", 
+            "id": "50"
+        }, 
+        {
+            "date": "04/07/2015", 
+            "cost": 76.15, 
+            "name": "Shawerma Plus", 
+            "id": "51"
+        }, 
+        {
+            "date": "04/02/2015", 
+            "cost": 9.99, 
+            "name": "Netflix", 
+            "id": "52"
+        }, 
+        {
+            "date": "04/02/2015", 
+            "cost": 36.6, 
+            "name": "Shawerma Plus", 
+            "id": "53"
+        }, 
+        {
+            "date": "03/24/2015", 
+            "cost": 76.59, 
+            "name": "Uber", 
+            "id": "54"
+        }, 
+        {
+            "date": "03/03/2015", 
+            "cost": 30.3, 
+            "name": "Sobeys", 
+            "id": "55"
+        }, 
+        {
+            "date": "03/01/2015", 
+            "cost": 66.88, 
+            "name": "Shawerma Plus", 
+            "id": "56"
+        }, 
+        {
+            "date": "02/21/2015", 
+            "cost": 27.15, 
+            "name": "Sobeys", 
+            "id": "57"
+        }, 
+        {
+            "date": "02/18/2015", 
+            "cost": 64.13, 
+            "name": "Sobeys", 
+            "id": "58"
+        }, 
+        {
+            "date": "02/17/2015", 
+            "cost": 73.25, 
+            "name": "Sobeys", 
+            "id": "59"
+        }, 
+        {
+            "date": "02/15/2015", 
+            "cost": 5.85, 
+            "name": "Balzacs", 
+            "id": "60"
+        }, 
+        {
+            "date": "02/14/2015", 
+            "cost": 71.36, 
+            "name": "Shawerma Plus", 
+            "id": "61"
+        }, 
+        {
+            "date": "02/14/2015", 
+            "cost": 8.97, 
+            "name": "Uber", 
+            "id": "62"
+        }, 
+        {
+            "date": "02/14/2015", 
+            "cost": 43.83, 
+            "name": "Sobeys", 
+            "id": "63"
+        }, 
+        {
+            "date": "02/13/2015", 
+            "cost": 46.82, 
+            "name": "Shawerma Plus", 
+            "id": "64"
+        }, 
+        {
+            "date": "01/27/2015", 
+            "cost": 47.89, 
+            "name": "Sobeys", 
+            "id": "65"
+        }, 
+        {
+            "date": "01/26/2015", 
+            "cost": 148.8, 
+            "name": "Balzacs", 
+            "id": "66"
+        }, 
+        {
+            "date": "01/23/2015", 
+            "cost": 123.63, 
+            "name": "Uber", 
+            "id": "67"
+        }, 
+        {
+            "date": "01/19/2015", 
+            "cost": 114.04, 
+            "name": "Shawerma Plus", 
+            "id": "68"
+        }, 
+        {
+            "date": "01/12/2015", 
+            "cost": 62.89, 
+            "name": "Sobeys", 
+            "id": "69"
+        }, 
+        {
+            "date": "01/06/2015", 
+            "cost": 79.34, 
+            "name": "Balzacs", 
+            "id": "70"
+        }, 
+        {
+            "date": "01/05/2015", 
+            "cost": 104.56, 
+            "name": "Sobeys", 
+            "id": "71"
+        }, 
+        {
+            "date": "01/03/2015", 
+            "cost": 23.82, 
+            "name": "Shawerma Plus", 
+            "id": "72"
+        }, 
+        {
+            "date": "01/03/2015", 
+            "cost": 31.42, 
+            "name": "Shawerma Plus", 
+            "id": "73"
+        }
+    ]
+}

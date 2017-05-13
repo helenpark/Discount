@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="RSAMobileSDK">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../savingstracker/libs/RSAMobileSDK.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Layout.PopupBody"
+    android:padding="10dp">
+<LinearLayout 
+    style="@style/Layout.Vertical"
+    android:background="@drawable/custom_border_sur">
+    <ListView
+        android:id="@+id/listView"
+        style="@style/Layout"
+         >
+    </ListView>
+    <View style="@style/LinerHorizontalLine" />
+	<LinearLayout 
+	    android:id="@+id/commandButton"
+    	style="@style/PopupRow"
+    	android:layout_marginRight="0dp"
+    	android:layout_marginLeft="0dp">
+
+
+    	<ImageView
+         	style="@style/PopupRowCheck"
+        	android:visibility="visible"
+        	android:src="@drawable/action_add_accesscard" />
+    
+    	<TextView
+        	android:id="@+id/txtAccessCard"
+        	style="@style/PopupRowText"
+        	android:text="@string/secureLoginMultiButtonLabelAddUAP" />
+    
+	</LinearLayout>
+   </LinearLayout> 
+</LinearLayout>

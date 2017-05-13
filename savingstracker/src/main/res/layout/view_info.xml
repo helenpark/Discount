@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Layout.Vertical"
+     >
+     <LinearLayout
+    	style="@style/Layout.Message"
+    	android:layout_marginTop="10dp"
+     >
+		<View style="@style/GreenRectangle.FUllHeight" />
+	    <TextView
+	        android:id="@+id/errorText"
+	       	style = "@style/Txt_Message"
+	        android:text="TextView"
+	        />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,32 @@
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    style="@style/Layout.Fill" >
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/account_container"
+        style="@style/ScrollviewLightGray.FillParent" >
+
+        <fragment
+            android:id="@+id/error_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            class="com.td.mobile.nextgen.view.HeaderErrorViewFragment" />
+
+        <ListView
+            android:id="@+id/summaryContent"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            android:background="@android:color/white"
+            android:choiceMode="singleChoice"
+            android:divider="@color/middle_grey"
+            android:dividerHeight="1dp"
+            android:listSelector="@drawable/list_selector" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/list_slidermenu"
+        style="@style/Menu_Flyout" />
+
+</android.support.v4.widget.DrawerLayout>

@@ -1,0 +1,58 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimaryDark</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowActionBar">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:statusBarColor">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="AppThemeNoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimaryDark</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:statusBarColor">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="DialogTheme" parent="Theme.AppCompat.Light.Dialog">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimaryDark</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:statusBarColor">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="MyActionBarTheme" parent="Base.Widget.AppCompat.Light.ActionBar.Solid">
+        <item name="elevation">0dp</item>
+    </style>
+
+    <style name="LeBubbleTextView">
+        <item name="bubbleBackgroundColor">@color/bubbleView_dark_background</item>
+        <item name="bubbleTextColor">@color/bubbleView_dark_text_color</item>
+        <item name="bubbleCornerRadius">@dimen/bubbleView_default_radius</item>
+        <item name="bubbleTextSize">@dimen/bubbleView_default_text_size</item>
+        <item name="bubbleBackgroundPressColor">@color/bubbleView_dark_press_background</item>
+    </style>
+
+    <style name="LeBubbleTextView.Light">
+        <item name="bubbleBackgroundColor">@color/bubbleView_light_background</item>
+        <item name="bubbleTextColor">@color/bubbleView_light_text_color</item>
+        <item name="bubbleBackgroundPressColor">@color/bubbleView_light_press_background</item>
+    </style>
+    <style name="LeBubbleTextView.Dark">
+        <item name="bubbleBackgroundColor">@color/bubbleView_dark_background</item>
+        <item name="bubbleTextColor">@color/bubbleView_dark_text_color</item>
+        <item name="bubbleBackgroundPressColor">@color/bubbleView_dark_press_background</item>
+    </style>
+
+
+</resources>

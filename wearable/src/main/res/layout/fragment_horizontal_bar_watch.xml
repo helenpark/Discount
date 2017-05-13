@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:id="@+id/details_screen_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:visibility="visible">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="December Cash Flow"
+            android:textColor="@color/grey"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"/>
+
+        <LinearLayout
+            android:id="@+id/incomeBar"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/tracker_list_view_height"
+            android:layout_marginStart="@dimen/tracker_list_view_margin_start"
+            android:layout_marginTop="@dimen/tracker_list_view_margin_top"
+            android:background="@color/white"
+            android:orientation="horizontal">
+
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".6"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/incomesText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="INCOME"
+                    android:textColor="@color/progress_black"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+
+                <ProgressBar
+                    android:id="@+id/incomeProgressBar"
+                    style="@android:style/Widget.ProgressBar.Horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/progress_height"
+                    android:maxHeight="@dimen/progress_max_height"
+                    android:progressDrawable="@drawable/blackprogress"
+                    android:progress="90"/>
+
+            </LinearLayout>
+
+            <!--<TextView-->
+                <!--android:id="@+id/incomesAmount"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="25dp"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:layout_weight=".4"-->
+                <!--android:gravity="end|center_vertical"-->
+                <!--android:textColor="@color/progress_black"-->
+                <!--android:textSize="20sp"-->
+                <!--android:drawableEnd="@drawable/ic_arrow"-->
+                <!--android:drawablePadding="15dp"-->
+                <!--android:layout_marginEnd="10dp"/>-->
+            <TextView
+                android:id="@+id/income_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$2,344"
+                android:textColor="@color/grey"
+                android:layout_gravity="end|center_vertical"
+                android:layout_marginEnd="6dp"
+                android:layout_marginStart="6dp"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/bar_separator_grey" />
+
+        <LinearLayout
+            android:id="@+id/pyfBar"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/tracker_list_view_height"
+            android:layout_marginBottom="@dimen/tracker_list_view_margin_bottom"
+            android:layout_marginStart="@dimen/tracker_list_view_margin_start"
+            android:layout_marginTop="@dimen/tracker_list_view_margin_top"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".6"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/pyfText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PAY YOURSELF FIRST"
+                    android:textColor="@color/progress_yellow"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+
+                <ProgressBar
+                    android:id="@+id/pyfProgressBar"
+                    style="@android:style/Widget.ProgressBar.Horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/progress_height"
+                    android:maxHeight="@dimen/progress_max_height"
+                    android:progressDrawable="@drawable/yellowprogress"
+                    android:progress="1"/>
+
+            </LinearLayout>
+
+            <!--<TextView-->
+                <!--android:id="@+id/pyfAmount"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="25dp"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:layout_weight=".4"-->
+                <!--android:gravity="end|center_vertical"-->
+                <!--android:textColor="@color/progress_yellow"-->
+                <!--android:textSize="20sp"-->
+                <!--android:drawableEnd="@drawable/ic_arrow"-->
+                <!--android:drawablePadding="15dp"-->
+                <!--android:layout_marginEnd="10dp"/>-->
+
+            <TextView
+                android:id="@+id/pyf_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$0"
+                android:textColor="@color/grey"
+                android:layout_gravity="end|center_vertical"
+                android:layout_marginEnd="6dp"
+                android:layout_marginStart="6dp"
+                />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/bar_separator_grey" />
+
+        <LinearLayout
+            android:id="@+id/expensesBar"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/tracker_list_view_height"
+            android:layout_marginStart="@dimen/tracker_list_view_margin_start"
+            android:layout_marginTop="@dimen/tracker_list_view_margin_top"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".6"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/expensesText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="EXPENSES"
+                    android:textColor="#ca484d"
+                    android:textSize="10dp"
+                    android:textStyle="bold" />
+
+                <ProgressBar
+                    android:id="@+id/expensesProgressBar"
+                    style="@android:style/Widget.ProgressBar.Horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/progress_height"
+                    android:maxHeight="@dimen/progress_max_height"
+                    android:progressDrawable="@drawable/redprogress"
+                    android:progress="35"/>
+            </LinearLayout>
+
+            <!--<TextView-->
+                <!--android:id="@+id/expensesAmount"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="25dp"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:layout_weight=".4"-->
+                <!--android:gravity="end|center_vertical"-->
+                <!--android:textSize="20sp"-->
+                <!--android:drawableEnd="@drawable/ic_arrow"-->
+                <!--android:textColor="#ca484d"-->
+                <!--android:drawablePadding="15dp"-->
+                <!--android:layout_marginEnd="10dp"/>-->
+
+            <TextView
+                android:id="@+id/expenses_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$1,544"
+                android:textColor="@color/grey"
+                android:layout_gravity="end|center_vertical"
+                android:layout_marginEnd="6dp"
+                android:layout_marginStart="6dp"
+                />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/bar_separator_grey" />
+
+        <LinearLayout
+            android:id="@+id/totalBar"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/tracker_list_view_height"
+            android:layout_marginStart="@dimen/tracker_list_view_margin_start"
+            android:layout_marginTop="@dimen/tracker_list_view_margin_top"
+            android:background="@color/white"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".6"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/totalText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="MONTHLY CASH FLOW"
+                    android:textColor="@color/progress_green"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+
+                <ProgressBar
+                    android:id="@+id/cashFlowProgressBar"
+                    style="@android:style/Widget.ProgressBar.Horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/progress_height"
+                    android:maxHeight="@dimen/progress_max_height"
+                    android:progressDrawable="@drawable/greenprogress"
+                    android:progress="50"/>
+
+
+            </LinearLayout>
+
+            <!--<TextView-->
+                <!--android:id="@+id/totalAmount"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="25dp"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:layout_weight=".4"-->
+                <!--android:gravity="end|center_vertical"-->
+                <!--android:textColor="@color/progress_green"-->
+                <!--android:textSize="20sp"-->
+                <!--android:textStyle="bold"-->
+                <!--android:layout_marginEnd="36dp"/>-->
+
+            <TextView
+                android:id="@+id/cash_flow_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$800"
+                android:textColor="@color/grey"
+                android:layout_gravity="end|center_vertical"
+                android:layout_marginEnd="6dp"
+                android:layout_marginStart="6dp"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

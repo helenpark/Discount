@@ -1,0 +1,43 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.td.innovate.savingstracker.onboard.IncomeFragment"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/deposit"
+        android:layout_centerHorizontal="true"
+        android:drawableStart="@drawable/ic_income_icon"
+        android:gravity="center"
+        android:drawablePadding="10dp"
+        android:layout_marginTop="20dp"
+        android:typeface="normal"
+        android:textColor="#FF60925C"
+        android:textSize="@dimen/txt_large"
+        android:id="@+id/incomeHeading"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/incomeHeading"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textColor="@color/body_grey"
+        android:textSize="@dimen/txt_medium"
+        android:typeface="normal"
+        android:text="@string/income_introduction"
+        android:id="@+id/incomeIntroduction"/>
+
+    <ListView
+        android:layout_marginTop="30dp"
+        android:id="@+id/incomeList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/incomeIntroduction"/>
+
+</RelativeLayout>

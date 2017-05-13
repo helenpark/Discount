@@ -1,0 +1,125 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFFFF"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/intro_backdrop"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/header"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                android:layout_weight="0.5"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/lab_title"
+                    android:text="@string/lab_title"
+                    android:textSize="16sp"
+                    android:gravity="center"
+                    android:fontFamily="sans-serif-light"
+                    android:padding="@dimen/activity_vertical_margin_half"
+                    android:textColor="#88FFFFFF"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"/>
+
+                <Button
+                    android:id="@+id/app_icon"
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/intro_start_button_body"
+                    android:layout_margin="@dimen/activity_vertical_margin"
+                    android:onClick="launchEULA"
+                    android:layout_below="@+id/lab_title"/>
+
+                <Button
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/cash_flow_icon"
+                    android:layout_margin="@dimen/activity_vertical_margin"
+                    android:onClick="launchEULA"
+                    android:layout_below="@+id/lab_title"/>
+
+                <ImageView
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_alignStart="@id/app_icon"
+                    android:layout_alignTop="@id/app_icon"
+                    android:background="@drawable/intro_start_button_body_shadow"
+                    android:layout_centerHorizontal="true" />
+
+                <TextView
+                    android:id="@+id/app_title"
+                    android:text="@string/app_title"
+                    android:textSize="32sp"
+                    android:gravity="center"
+                    android:fontFamily="sans-serif-light"
+                    android:padding="@dimen/activity_vertical_margin_half"
+                    android:textColor="#CCFFFFFF"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="launchEULA"
+                    android:clickable="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@+id/app_icon"/>
+
+                <TextView
+                    android:text="Tap to Start"
+                    android:textSize="16sp"
+                    android:gravity="center"
+                    android:fontFamily="sans-serif-light"
+                    android:paddingTop="@dimen/activity_vertical_margin_half"
+                    android:paddingBottom="32dp"
+                    android:textColor="#88FFFFFF"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/app_title"
+                    android:id="@+id/click_to_start"
+                    android:onClick="launchEULA"
+                    android:clickable="true"
+                    android:layout_centerHorizontal="true"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFFFF"
+                android:layout_weight="0.5"
+                android:gravity="center">
+
+                <TextView
+                    android:text="@string/app_description"
+                    android:textSize="16sp"
+                    android:gravity="center"
+                    android:fontFamily="sans-serif-light"
+                    android:padding="@dimen/activity_vertical_margin"
+                    android:textColor="#88000000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView"
+                    android:maxWidth="640dp"
+                    android:layout_centerHorizontal="true"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,80 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    tools:context="com.td.innovate.tdiscount.fragment.ReviewFragment">
+
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:padding="10dp"
+        android:gravity="center_horizontal"
+        android:id="@+id/starLayout">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/reviewStar1"
+            android:src="@drawable/star_empty_with_border"
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/reviewStar2"
+            android:src="@drawable/star_empty_with_border"
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp"
+            android:layout_toRightOf="@id/reviewStar1"/>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/reviewStar3"
+            android:src="@drawable/star_empty_with_border"
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp"
+            android:layout_toRightOf="@id/reviewStar2"/>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/reviewStar4"
+            android:src="@drawable/star_empty_with_border"
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp"
+            android:layout_toRightOf="@id/reviewStar3"/>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/reviewStar5"
+            android:src="@drawable/star_empty_with_border"
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp"
+            android:layout_toRightOf="@id/reviewStar4"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="No rating available"
+            android:id="@+id/noRatingAvailable"
+            android:textSize="20sp"
+            android:gravity="center_vertical"
+            android:layout_toRightOf="@id/reviewStar5"/>
+    </RelativeLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/reviewsList"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>

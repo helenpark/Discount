@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/title"
+        android:orientation="horizontal"
+        android:visibility="visible">
+
+        <TextView
+            android:id="@+id/titleName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="start"
+            android:textColor="@color/dark_grey"
+            android:textStyle="bold"
+            android:layout_marginStart="@dimen/activity_slim_margin">
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:background="@color/light_grey"
+        android:id="@+id/tab"
+        android:visibility="visible">
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/dark_grey"
+            android:layout_margin="10dp"
+            android:layout_marginStart="@dimen/activity_slim_margin">
+        </TextView>
+
+        <TextView
+            android:id="@+id/vendorLabel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/dark_grey"
+            android:layout_margin="10dp"
+            android:layout_marginStart="@dimen/activity_slim_margin">
+        </TextView>
+
+        <TextView
+            android:id="@+id/amountLabel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:layout_gravity="center_vertical|end"
+            android:gravity="end"
+            android:layout_margin="10dp"
+            android:layout_marginEnd="@dimen/activity_slim_margin">
+        </TextView>
+
+    </LinearLayout>
+
+</LinearLayout>

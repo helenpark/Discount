@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/error_frame"
+    style="@style/Alert.Container.Error" >
+    <LinearLayout
+          	style="@style/Layout.Horizontal.Inner"
+          >
+		     <ImageView
+		         android:id="@+id/imageView1"
+		        style="@style/Icon.Error"
+		        />
+		     <LinearLayout
+	          	style="@style/Layout.Vertical"
+	          >
+		     <TextView
+		         android:id="@+id/error_header"
+		      	android:text="Please review the following information"
+		      	style="@style/Alert.Txt.Gray" />
+		     
+		      <TextView
+		         android:id="@+id/error_text"
+		      	android:text="An Error Occurred"
+		      	style="@style/Alert.Txt.Error" />
+		     </LinearLayout>
+			
+    </LinearLayout>
+	<View
+	       style = "@style/LinerHorizontalLine.TopWrap" />
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:background="#FFFFFF"
+    android:padding="19dp">
+
+    <TextView
+        android:id="@+id/listview_offers_storename"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:text="Store Name"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#909090"
+        android:maxLines="2"
+        android:gravity="left"
+        android:textAlignment="gravity"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/listview_offers_store_price"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:text="$$$$"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#909090"
+        android:gravity="right"
+        android:textAlignment="gravity" />
+
+</RelativeLayout>

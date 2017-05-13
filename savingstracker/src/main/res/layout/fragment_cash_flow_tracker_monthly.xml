@@ -1,0 +1,304 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/lib/com.td.innovate.savingstracker.tracker.CashFlowTrackerMonthlyFragment"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.td.innovate.savingstracker.tracker.CashFlowTrackerMonthlyFragment"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:id="@+id/bubble"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="@dimen/activity_vertical_margin">
+
+        <View
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/inner_circular_bar" />
+
+        <View
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/circular_background" />
+
+        <com.pascalwelsch.holocircularprogressbar.HoloCircularProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_centerInParent="true"
+            app:marker_proess="0"
+            app:proess="0" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignBottom="@+id/progressBar"
+            android:layout_alignEnd="@+id/progressBar"
+            android:layout_alignStart="@+id/progressBar"
+            android:layout_alignTop="@+id/progressBar"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/projectedCF"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:textColor="#8a8a8a" />
+
+            <TextView
+                android:id="@+id/monthlyRemainingText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/projectedCF"
+                android:layout_centerHorizontal="true"
+                android:textSize="10sp"
+                android:textColor="#8a8a8a" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/bar_separator_grey" />
+
+    <LinearLayout
+        android:id="@+id/details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:id="@+id/incomeBar"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/tracker_list_view_height"
+            android:layout_marginBottom="@dimen/tracker_list_view_margin_bottom"
+            android:layout_marginStart="@dimen/tracker_list_view_margin_start"
+            android:layout_marginTop="@dimen/tracker_list_view_margin_top"
+            android:background="@color/white"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".6"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/incomesText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="INCOME"
+                    android:textColor="@color/progress_black"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+
+                <ProgressBar
+                    android:id="@+id/incomesProgressBar"
+                    style="@android:style/Widget.ProgressBar.Horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/progress_height"
+                    android:maxHeight="@dimen/progress_max_height"
+                    android:progressDrawable="@drawable/blackprogress" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/incomesAmount"
+                android:layout_width="0dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:layout_weight=".4"
+                android:gravity="end|center_vertical"
+                android:textColor="@color/progress_black"
+                android:textSize="20sp"
+                android:drawableEnd="@drawable/ic_arrow"
+                android:drawablePadding="15dp"
+                android:layout_marginEnd="10dp"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/bar_separator_grey" />
+
+        <LinearLayout
+            android:id="@+id/pyfBar"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/tracker_list_view_height"
+            android:layout_marginBottom="@dimen/tracker_list_view_margin_bottom"
+            android:layout_marginStart="@dimen/tracker_list_view_margin_start"
+            android:layout_marginTop="@dimen/tracker_list_view_margin_top"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".6"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/pyfText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PAY YOURSELF FIRST"
+                    android:textColor="@color/progress_yellow"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+
+                <ProgressBar
+                    android:id="@+id/pyfProgressBar"
+                    style="@android:style/Widget.ProgressBar.Horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/progress_height"
+                    android:maxHeight="@dimen/progress_max_height"
+                    android:progressDrawable="@drawable/yellowprogress" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/pyfAmount"
+                android:layout_width="0dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:layout_weight=".4"
+                android:gravity="end|center_vertical"
+                android:textColor="@color/progress_yellow"
+                android:textSize="20sp"
+                android:drawableEnd="@drawable/ic_arrow"
+                android:drawablePadding="15dp"
+                android:layout_marginEnd="10dp"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/bar_separator_grey" />
+
+        <LinearLayout
+            android:id="@+id/expensesBar"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/tracker_list_view_height"
+            android:layout_marginBottom="@dimen/tracker_list_view_margin_bottom"
+            android:layout_marginStart="@dimen/tracker_list_view_margin_start"
+            android:layout_marginTop="@dimen/tracker_list_view_margin_top"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".6"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/expensesText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="EXPENSES"
+                    android:textColor="#ca484d"
+                    android:textSize="10dp"
+                    android:textStyle="bold" />
+
+                <ProgressBar
+                    android:id="@+id/expensesProgressBar"
+                    style="@android:style/Widget.ProgressBar.Horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/progress_height"
+                    android:maxHeight="@dimen/progress_max_height"
+                    android:progressDrawable="@drawable/redprogress" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/expensesAmount"
+                android:layout_width="0dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:layout_weight=".4"
+                android:gravity="end|center_vertical"
+                android:textSize="20sp"
+                android:drawableEnd="@drawable/ic_arrow"
+                android:textColor="#ca484d"
+                android:drawablePadding="15dp"
+                android:layout_marginEnd="10dp"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/bar_separator_grey" />
+
+        <LinearLayout
+            android:id="@+id/totalBar"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/tracker_list_view_height"
+            android:layout_marginBottom="@dimen/tracker_list_view_margin_bottom"
+            android:layout_marginStart="@dimen/tracker_list_view_margin_start"
+            android:layout_marginTop="@dimen/tracker_list_view_margin_top"
+            android:background="@color/white"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".6"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/totalText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="MONTHLY CASH FLOW"
+                    android:textColor="@color/progress_green"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+
+                <ProgressBar
+                    android:id="@+id/totalProgressBar"
+                    style="@android:style/Widget.ProgressBar.Horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/progress_height"
+                    android:maxHeight="@dimen/progress_max_height"
+                    android:progressDrawable="@drawable/greenprogress" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/totalAmount"
+                android:layout_width="0dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:layout_weight=".4"
+                android:gravity="end|center_vertical"
+                android:textColor="@color/progress_green"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginEnd="36dp"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/bar_separator_grey" />
+
+    </LinearLayout>
+
+</LinearLayout>

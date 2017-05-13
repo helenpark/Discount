@@ -1,0 +1,70 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.td.innovate.savingstracker.pyf.PYFConfirmationActivity">
+
+    <TextView
+        android:id="@+id/centerMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:textSize="@dimen/txt_small"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:text="@string/pay_yourself_setup_successful_message"/>
+
+    <TextView
+        android:id="@+id/congratulations"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/centerMessage"
+        android:text="@string/congratulation"
+        android:textSize="@dimen/txt_large"
+        android:typeface="normal"
+        android:gravity="center"
+        android:drawableTop="@drawable/ic_check_mark"
+        android:drawablePadding="20dp"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/socialHubIntro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_below="@id/centerMessage"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/dark_grey"
+        android:textSize="@dimen/txt_xsmall"
+        android:layout_marginStart="43dp"
+        android:layout_marginEnd="43dp"
+        android:text="@string/social_hub_intro"/>
+
+
+    <TextView
+        android:id="@+id/socialHubIcon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/socialHubIntro"
+        android:layout_marginTop="20dp"
+        android:text="@string/social_hub_app_name"
+        android:textSize="@dimen/txt_medium"
+        android:textColor="@color/dark_grey"
+        android:typeface="normal"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:drawableTop="@drawable/ic_social_hub_icon"
+        android:drawablePadding="5dp"/>
+    
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/progress_green"
+        android:text="@string/back_to_the_tracker"
+        android:onClick="backToTracker"/>
+
+</RelativeLayout>

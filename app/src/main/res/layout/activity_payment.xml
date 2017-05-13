@@ -1,0 +1,88 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.td.innovate.tdiscount.activity.PaymentActivity"
+    android:id="@+id/relativeLayout">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Notify me when I can"
+        android:id="@+id/paymentNotificationButton"
+        android:layout_gravity="right"
+        android:background="@color/colorPrimary"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:minHeight="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp"
+        android:textAllCaps="false" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:id="@+id/informationLayout">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:id="@+id/imageView"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/red_alert"
+                android:layout_marginTop="25dp" />
+
+            <TextView
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:text="You Can/Can&apos;t Afford This"
+                android:id="@+id/payment_affordable_title"
+                android:layout_gravity="center_horizontal"
+                android:textSize="25sp"
+                android:gravity="center_horizontal"
+                android:textStyle="bold"
+                android:layout_marginTop="35dp" />
+
+            <TextView
+                android:layout_width="290dp"
+                android:layout_height="wrap_content"
+                android:text="This purchase will put you over your credit card limit."
+                android:id="@+id/paymentWarning"
+                android:layout_gravity="center_horizontal"
+                android:textSize="14sp"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="25dp" />
+
+        </LinearLayout>
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Interested to learn more?"
+            android:textColor="@color/colorPrimary"
+            android:id="@+id/moreInfoButton"
+            android:background="@null"
+            android:layout_below="@+id/informationLayout"
+            android:layout_centerHorizontal="true"
+            android:textAllCaps="false" />
+
+
+    </RelativeLayout>
+
+
+
+
+
+</RelativeLayout>
+
+

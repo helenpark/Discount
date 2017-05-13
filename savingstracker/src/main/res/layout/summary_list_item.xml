@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/GroupTableRow"
+    android:weightSum="10" >
+
+    <LinearLayout
+        style="@style/Layout.Vertical"
+        android:layout_width="0dp"
+        android:layout_weight="4"
+        android:paddingRight="5dp" >
+
+        <TextView
+            android:id="@+id/accntDescrSum"
+            style="@style/Txt_GroupTablePrime"
+            android:text="The Every Day Chequin" />
+
+        <TextView
+            android:id="@+id/accntNumberSum"
+            style="@style/Txt_GroupTableSecond"
+            android:text="sdhsdjsdj" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/Layout.Horizontal"
+        android:layout_width="0dp"
+        android:layout_gravity="center_vertical|right"
+        android:layout_weight="6" >
+
+        <TextView
+            android:id="@+id/accntBalanceSum"
+            style="@style/Txt_GroupTablePrime_Right"
+            android:layout_weight="0.9"
+            android:text="111111111111111"
+            android:textColor="@color/black" />
+
+        <ImageView
+            android:id="@+id/carret"
+            style="@style/RightArrow"
+            android:layout_gravity="center_vertical|right"
+            android:layout_weight="0.1"
+            android:gravity="right" />
+    </LinearLayout>
+
+</LinearLayout>

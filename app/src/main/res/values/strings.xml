@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TDiscount</string>
+    <string name="header_text"></string>
+    <string name="empty_text">Empty</string>
+    <string name="tab_country">Country</string>
+    <string name="tab_continent">Continent</string>
+    <string name="tab_city">City</string>
+    <string name="tab_scroll_view">ScrollView</string>
+    <string name="title_activity_main_fragment">MainFragmentActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_list">ListActivity</string>
+    <string name="title_activity_payment">PaymentActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_no_close_matches_screen">NoCloseMatchesScreen</string>
+</resources>

@@ -1,0 +1,98 @@
+ <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="left|top"
+        android:id="@+id/layout">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rellay">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/linlay">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="RECOMMENDED"
+                    android:id="@+id/textView6"
+                    android:background="#F1F1F1"
+                    android:textColor="#909090"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp" />
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:background="#2BA93F"
+                    android:id="@+id/rlRecommendedStore"
+                    android:padding="19dp">
+
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Store Name"
+                        android:maxLines="2"
+                        android:id="@+id/fragment_recommended_store_name"
+                        android:layout_centerVertical="true"
+                        android:gravity="left"
+                        android:textAlignment="gravity"
+                        android:textColor="#FFFFFF" />
+
+                    <TextView
+                        android:layout_width="140dp"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="$$$$"
+                        android:id="@+id/fragment_recommended_store_price"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="false"
+                        android:gravity="right"
+                        android:textAlignment="gravity"
+                        android:textColor="#FFFFFF"
+                        android:maxWidth="40dp"/>
+
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="OTHER"
+                    android:id="@+id/textView9"
+                    android:background="#F1F1F1"
+                    android:textColor="#909090"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp" />
+
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/main_options_offer_listview" />
+    </LinearLayout>
+
+</FrameLayout>

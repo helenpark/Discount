@@ -1,0 +1,12 @@
+.gradle
+/local.properties
+/.idea/*
+/.idea/.name
+/.idea/libraries
+.DS_Store
+/build
+/captures
+/app/app.iml
+/circularBarGraph/circularBarGraph.iml 
+/savingstracker/savingstracker.iml
+/wearable/wearable.iml

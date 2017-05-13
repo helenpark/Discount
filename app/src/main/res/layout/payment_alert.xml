@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="25dp"
+    android:background="#FFFFFF">
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/imageView"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="20dp"
+        android:src="@drawable/red_alert" />
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="You Can/Can&apos;t Afford This"
+        android:id="@+id/payment_affordable_title"
+        android:layout_gravity="center_horizontal"
+        android:textSize="18sp"
+        android:textAllCaps="true"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:text="This purchase will put you over your credit card limit."
+        android:id="@+id/paymentWarning"
+        android:layout_gravity="center_horizontal"
+        android:textSize="14sp"
+        android:textAllCaps="true"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Notify me when I can"
+        android:id="@+id/paymentNotificationButton"
+        android:layout_gravity="right"
+        android:background="@null"
+        android:layout_marginTop="30dp"
+        android:textColor="#585858"
+        android:textSize="18sp"
+        android:minHeight="10dp"
+        android:layout_marginBottom="10dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ok, thanks"
+        android:id="@+id/paymentAcceptWarningButton"
+        android:layout_gravity="right"
+        android:background="@null"
+        android:textSize="18sp"
+        android:minHeight="10dp" />
+</LinearLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft = "10dp"
+    android:background="@color/white"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|center"
+        android:paddingLeft="5dp"
+        android:paddingTop="@dimen/account_activity_item_padding_top"
+        android:paddingBottom="@dimen/account_activity_item_padding_down"
+        android:text="July 14"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/black"
+        android:textSize="@dimen/account_activity_item_text_size" />
+
+    <TextView
+        android:layout_weight="1"
+        android:id="@+id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:paddingTop="@dimen/account_activity_item_padding_top"
+        android:paddingBottom="@dimen/account_activity_item_padding_down"
+        android:text="TFR 9400 Costco Markham Etobicoke Toronto Brampton"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:maxLines="2"
+        android:ellipsize="end"
+        />
+
+    <TextView
+        android:layout_weight="0"
+        android:id="@+id/amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="@dimen/account_activity_item_padding_top"
+        android:paddingBottom="@dimen/account_activity_item_padding_down"
+        android:text="4253.76"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/black"
+        android:textSize="@dimen/account_activity_item_text_size" 
+        android:layout_gravity="left|center" />
+
+</LinearLayout>

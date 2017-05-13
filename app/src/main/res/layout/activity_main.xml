@@ -1,0 +1,103 @@
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:autofit="http://schemas.android.com/apk/res-auto">
+
+    <com.td.innovate.tdiscount.widgets.TouchCallbackLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v4.view.ViewPager
+            android:layout_marginTop="@dimen/tabs_height"
+            android:id="@id/viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="44dp"
+            android:layout_marginLeft="-2dp"
+            android:layout_marginRight="-2dp" />
+
+        <RelativeLayout
+            android:id="@id/header"
+            android:background="@color/colorPrimaryDark"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/viewpager_height">
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/iview"
+                android:src="@drawable/photo1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+
+                app:riv_corner_radius="30dip"
+                app:riv_border_width="1dip"
+                app:riv_border_color="#333333"
+                app:riv_mutate_background="true"
+                app:riv_oval="true"
+                android:layout_gravity="center"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:scaleType="centerCrop" />
+
+
+            <me.grantland.widget.AutofitTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/productNameTextView"
+                android:layout_gravity="center"
+                android:textColor="@android:color/white"
+                android:maxLines="2"
+                android:textSize="20sp"
+                autofit:minTextSize="14sp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:layout_below="@id/iview"
+                android:layout_centerHorizontal="true"
+                android:gravity="center_horizontal" />
+
+            <me.grantland.widget.AutofitTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:id="@+id/productDescriptionTextView"
+                android:layout_gravity="center"
+                android:textColor="#7D9487"
+                android:textSize="14sp"
+                android:maxLines="1"
+                autofit:minTextSize="10sp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:gravity="center_horizontal"
+                android:layout_below="@id/productNameTextView"/>
+
+            <com.td.innovate.tdiscount.widgets.SlidingTabLayout
+                android:id="@id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/tabs_height"
+                android:background="@color/colorPrimaryDark"
+                android:fillViewport="false"
+                android:layout_alignParentEnd="false"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="0dp" />
+
+        </RelativeLayout>
+
+    </com.td.innovate.tdiscount.widgets.TouchCallbackLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Can I Afford This?"
+        android:id="@+id/buyButton"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="-10dp"
+        android:layout_marginRight="-10dp"
+        android:background="@color/accentColor"
+        android:textColor="@android:color/white"
+        android:textAllCaps="true"
+        />
+</RelativeLayout>
+

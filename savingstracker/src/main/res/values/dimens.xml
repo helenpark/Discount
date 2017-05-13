@@ -1,0 +1,52 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- Custom margins -->
+
+    <dimen name="activity_zero_margin">0dp</dimen>
+    <dimen name="activity_slim_margin">8dp</dimen>
+    <dimen name="activity_vertical_margin_half">8dp</dimen>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="label_bottom_margin">5dp</dimen>
+
+    <!--  Font Sizes -->
+    <dimen name="txt_xsmall">14sp</dimen>
+    <dimen name="txt_small">16sp</dimen>
+    <dimen name="txt_medium">19sp</dimen>
+    <dimen name="txt_large">24sp</dimen>
+    <dimen name="txt_xlarge">32sp</dimen>
+
+    <dimen name="login_vertical_margin">40dp</dimen>
+
+
+    <!-- Account Details -->
+
+    <dimen name="account_activity_item_text_size">16sp</dimen>
+    <dimen name="account_activity_summary_current_balance_text_size">22sp</dimen>
+    <dimen name="account_activity_item_padding_top">8dp</dimen>
+    <dimen name="account_activity_item_padding_down">8dp</dimen>
+    <dimen name="account_activity_list_section_title_font_text">22sp</dimen>
+
+    <dimen name="dash_board_location_list_height">250dp</dimen>
+
+
+    <!-- Account Details -->
+
+    <dimen name="investing_account_detail_activity_item_text_size">14sp</dimen>
+
+    <dimen name="pyf_top_intro_height">125dp</dimen>
+    <dimen name="zero_height">0dp</dimen>
+
+    <!--Monthly & Daily Margin-->
+    <dimen name="tracker_list_view_margin_top">5dp</dimen>
+    <dimen name="tracker_list_view_height">40dp</dimen>
+    <dimen name="tracker_list_view_margin_bottom">5dp</dimen>
+    <dimen name="tracker_list_view_margin_start">10dp</dimen>
+    <dimen name="progress_max_height">40dp</dimen>
+    <dimen name="progress_height">40dp</dimen>
+
+</resources>

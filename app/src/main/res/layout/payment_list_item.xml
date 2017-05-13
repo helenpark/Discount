@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:id="@+id/payment_list_layout"
+    android:background="#FCFCFC"
+    android:padding="19dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/linearLayout2"
+        android:layout_gravity="center_vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Payment Title"
+            android:id="@+id/payment_option_title"
+            android:textColor="#C8C8C8"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Perks of using this payment method"
+            android:maxLines="1"
+            android:id="@+id/payment_option_desc"
+            android:textColor="#C8C8C8"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

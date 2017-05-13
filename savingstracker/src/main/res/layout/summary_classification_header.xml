@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:id="@+id/tableRow1"
+     style="@style/TableHeader"
+     >
+        <TextView
+            android:id="@+id/classificationTexView"
+            style = "@style/Txt.ColumnHeader"
+            android:text="@string/banking_str"
+            />
+
+        <TextView
+            android:id="@+id/textView1"
+            style = "@style/Txt.ColumnHeader"
+            android:gravity="right"
+            android:text="@string/balance_str"
+            />
+</LinearLayout>

@@ -1,0 +1,61 @@
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    style="@style/Layout.Fill" >
+    
+<LinearLayout
+    android:id="@+id/login_layout"
+    style="@style/ScrollviewLightGray.FillParent" >
+	<LinearLayout
+	    android:id="@+id/list_item"
+          style="@style/Alert.Container.Info" >
+          <LinearLayout
+          	style="@style/Layout.Horizontal"
+          >
+		     <ImageView
+		        style="@style/Icon.Info"
+		        />
+		     <TextView
+		      android:text="@string/securityQuestionMFASetupRequiredCopy"
+		      style="@style/Alert.Txt" />
+          </LinearLayout>
+        <View
+		       style = "@style/LinerHorizontalLine.TopWrap" />
+    </LinearLayout>
+    
+    
+
+    <include
+        android:id="@+id/mfa_error_message"
+        layout="@layout/view_info" />
+    
+    <LinearLayout
+	        style="@style/LinerLayout.Vertical.Actionbar" >
+	    <Button
+	        android:id="@+id/btn_easy_web"
+	        style = "@style/Button.Primary"
+	        android:text="@string/securityQuestionMFASetupRequiredButtonGoToEW" />
+	
+	    <Button
+	        android:id="@+id/btn_web_broker"
+	        style = "@style/Button.Primary"
+	        android:layout_marginTop="10dp"
+	        android:text="@string/securityQuestionMFASetupRequiredButtonGoToWB" />
+	</LinearLayout>
+
+  
+
+</LinearLayout>
+
+
+    <ListView
+        android:id="@+id/list_slidermenu"
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@android:color/black"
+        android:choiceMode="singleChoice"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="0dp"
+        android:listSelector="@drawable/list_selector" />
+
+</android.support.v4.widget.DrawerLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/errorPanel"
+    style="@style/Alert.Container.Error.Inline"
+    >
+    <LinearLayout
+          	style="@style/Layout.Horizontal.Inner"
+          	android:paddingLeft="0dp"
+          >
+		     <LinearLayout
+	          	style="@style/Layout.Vertical"
+	          >
+		     <TextView
+		         android:id="@+id/errorText"
+		      	android:text="An Error Occurred"
+		      	style="@style/Alert.Txt.Error"
+		      	android:layout_marginTop="0dp"
+		      	android:textSize="14sp" />
+		     
+		     </LinearLayout>
+			
+    </LinearLayout>
+</LinearLayout>

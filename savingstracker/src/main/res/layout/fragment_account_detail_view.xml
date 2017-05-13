@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/ScrollviewLightGray.FillParent" >
+
+    <include
+        android:id="@+id/error_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        layout="@layout/header_error_view" 
+        />
+
+    <LinearLayout style="@style/Alert.Container.Slide" >
+
+        <TableLayout style="@style/Layout.TableStretch" >
+
+            <TableRow
+                style="@style/Layout"
+                android:layout_marginBottom="10dp" >
+
+                <TextView
+                    android:id="@+id/account_desc"
+                    style="@style/Txt_Details_Emphasize"
+                    android:layout_span="2"
+                    android:text="" />
+            </TableRow>
+
+            <TableRow style="@style/Layout" >
+
+                <TextView
+                    android:id="@+id/current_balance"
+                    style="@style/Txt_Details_Emphasize.Dynamic"
+                    android:singleLine="true"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/available_balance"
+                    style="@style/Txt_Details_Emphasize.Dynamic"
+                    android:gravity="right"
+                    android:singleLine="true"
+                    android:text="" />
+            </TableRow>
+
+            <TableRow style="@style/Layout" >
+
+                <TextView
+                    android:id="@+id/current_balance_label"
+                    style="@style/FormControls.Label.White"
+                    android:text="@string/accountDetailCAAccountHeaderCurrentBalance" />
+
+                <TextView
+                    android:id="@+id/available_balance_label"
+                    style="@style/FormControls.Label.White"
+                    android:gravity="right"
+                    android:text="@string/accountDetailCAAccountHeaderAvailableBalance" />
+            </TableRow>
+        </TableLayout>
+
+        <LinearLayout
+            android:id="@+id/pageIndicator"
+            style="@style/Layout.Horizontal"
+            android:layout_centerInParent="true"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:paddingTop="10dp" >
+        </LinearLayout>
+    </LinearLayout>
+
+    <!--<include-->
+        <!--android:id="@+id/quick_links"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--layout="@layout/quick_links_bar" />-->
+
+    <LinearLayout
+        android:id="@+id/account_activity_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical" >
+
+        <include
+            android:id="@+id/activity_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            layout="@layout/account_activity_header" />
+
+        <ListView
+            android:id="@+id/account_activity_list"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            android:background="@android:color/white"
+            android:choiceMode="singleChoice"
+            android:divider="@color/middle_grey"
+            android:dividerHeight="1dp"
+            android:listSelector="@drawable/list_selector" />
+<!-- 
+        <TextView
+            android:id="@+id/loadMore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/rounded_corner"
+            android:drawableLeft="@drawable/btn_refresh"
+            android:gravity="center_vertical"
+            android:text="@string/accountDetailActivityLoadMoreBtn"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:visibility="invisible" >
+        </TextView>
+         -->
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/empty_activity_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/light_grey"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <ImageView
+            android:id="@+id/dashboard_banking"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/dashboard_banking" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="@string/accountDetailCopyNoActivity"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:visibility="visible" >
+        </TextView>
+    </LinearLayout>
+
+</LinearLayout>

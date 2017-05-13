@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="horizontal" 
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:paddingTop="10dip"
+    android:paddingBottom="10dip"
+    >
+            <TextView
+            android:id="@+id/loadMore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/rounded_corner"
+            android:gravity="center"
+            android:text="@string/accountDetailActivityLoadMoreBtn"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:visibility="visible" 
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            >
+        </TextView>
+</RelativeLayout>

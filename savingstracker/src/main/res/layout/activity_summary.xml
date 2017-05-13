@@ -1,0 +1,84 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/SummaryActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/fragment_container"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/topButtons"
+            android:background="#FF363636"
+            android:weightSum="1">
+
+            <Button
+                style="?android:attr/actionBarStyle"
+                android:id="@+id/dailyButton"
+                android:layout_height="35dp"
+                android:layout_width="0dp"
+                android:gravity="center"
+                android:layout_weight="0.5"
+                android:text="Daily"
+                android:textSize="@dimen/txt_xsmall"
+                android:background="#FF363636"
+                android:onClick="toDaily"/>
+
+            <View
+                android:layout_width="0.5dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:background="#FF8b8b8b"/>
+
+            <Button
+                style="?android:attr/actionBarStyle"
+                android:id="@+id/monthlyButton"
+                android:layout_height="35dp"
+                android:layout_width="0dp"
+                android:gravity="center"
+                android:layout_weight="0.5"
+                android:text="Monthly"
+                android:textSize="@dimen/txt_xsmall"
+                android:background="#FF363636"
+                android:onClick="toMonthly"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <View
+                android:id="@+id/dailyButtonStripe"
+                android:layout_height="5dp"
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:onClick="toDaily"/>
+
+            <View
+                android:id="@+id/monthlyButtonStripe"
+                android:layout_height="5dp"
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:onClick="toMonthly"/>
+
+        </LinearLayout>
+
+        <android.support.v4.view.ViewPager
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/tracker"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Strings Imported From TD App -->
+    <string name="secureLoginMultiHeader">Access Card or Username</string>
+    <string name="secureLoginMultiButtonEdit">Edit</string>
+    <string name="secureLoginMultiButtonLabelAddUAP">Add Username or Access Card</string>
+    <string name="secureLoginEditButtonDone">Done</string>
+    <string name="secureLoginErrorPageHeader">LOGIN ERROR</string>
+    <string name="secureLoginErrorCopy">The Username or Password you entered is incorrect. Please try again. </string>
+    <string name="secureLoginErrorButtonOk">OK</string>
+    <string name="logoutConfirmPageHeader">LOGOUT</string>
+    <string name="logoutConfirmCopy">Are you sure you want to logout of mobile banking now?</string>
+    <string name="logoutConfirmButtonCancel">Cancel</string>
+    <string name="logoutConfirmButtonLogout">Logout</string>
+    <string name="logoutSuccessPageHeader">Logout Success</string>
+    <string name="logoutSuccessCopy">You have successfully logged out of your secure mobile banking session</string>
+    <string name="logoutSuccessApplyToday">Apply Today</string>
+    <string name="logoutSuccessQuickTaskHome">Home</string>
+    <string name="logoutSuccessQuickTaskContact">Contact</string>
+    <string name="logoutSuccessQuickTaskFindLocations">TD Locations</string>
+    <string name="logoutSuccessQuickTaskLogin">Login</string>
+    <string name="addLoginPageHeader">Add Login</string>
+    <string name="addLoginHeaderAccessCard">Access Card or Username</string>
+    <string name="addLoginHeaderPassword">Password</string>
+    <string name="addLoginSwitch">Remember Me</string>
+    <string name="addLoginButton">Login</string>
+    <string name="addLoginButtonAlt">Login</string>
+    <string name="addLoginFooterPrivacyAndSecurity">Privacy &amp; Security</string>
+    <string name="addLoginFooterLegal">Legal</string>
+    <string name="addLoginFooterImportantInformation">Important Information</string>
+    <string name="addLoginFooterDotSeparator">•</string>
+    <string name="accounts_str">Accounts</string>
+    <string name="secure_login">Secure Login</string>
+    <string name="username_str">ACCESS CARD OR USERNAME</string>
+    <string name="password_str">PASSWORD</string>
+    <string name="login_str">Login</string>
+    <string name="yes_str">YES</string>
+    <string name="no_str">NO</string>
+    <string name="remember_str">REMEMBER ME</string>
+    <string name="banking_str">BANKING</string>
+    <string name="balance_str">BALANCE</string>
+    <string name="total_str">TOTAL</string>
+    <string name="date_str">DATE</string>
+    <string name="amount_str">AMOUNT</string>
+    <string name="confirm">Confirm</string>
+    <string name="loading">Loading</string>
+    <string name="applicationTimeoutTitle">Session Timeout</string>
+    <string name="applicationTimeoutMessage">For your protection, your session expired after 10 minutes of no activity. </string>
+    <string name="applicationTimeoutDismissBtnLabel">OK</string>
+    <string name="UpcomingBillsDateTabFrom">from</string>
+    <string name="AcessCardsLimitDialogTitle">Max Add Limit Reached</string>
+    <string name="AcessCardsLimitDialogMessage">Please delete one of the existing Access Cards to save a new one</string>
+    <string name="AcessCardsLimitDialogButtonText">OK</string>
+    <string name="action_bar_title_account_detail">Account Detail</string>
+    <string name="accountDetailActivityLoadMoreBtn">Load more</string>
+    <string name="accountDetailCopyNoActivity">No activity to display in this account</string>
+    <string name="current_statement">Current Statement</string>
+    <string name="previous_statement">Previous Statement</string>
+    <string name="last_statement">Last Statement</string>
+    <string name="second_last_statement">2nd Last Statement</string>
+    <string name="accountDetailCAAccountHeaderCurrentBalance">CURRENT BALANCE </string>
+    <string name="accountDetailCAAccountHeaderAvailableBalance">AVAILABLE BALANCE </string>
+    <string name="accountDetailCAAccountColumnHeadersDescription">DESCRIPTION</string>
+    <string name="accountDetailUSAccountHeaderCurrentUSDBalance">CURRENT USD BALANCE </string>
+    <string name="accountDetailCreditCardHeaderAvailableCredit">AVAILABLE CREDIT </string>
+    <string name="accountDetailUSAccountHeaderAvailableUSDBalance">AVAILABLE USD BALANCE </string>
+    <string name="securityQuestionAuthDeniedCopyTop">Your account access has been temporarily disabled</string>
+    <string name="securityQuestionAuthDeniedCopyMiddle">NEED PRODUCTION MESSAGE</string>
+    <string name="securityQuestionAuthDeniedButtonCall1866">1–866–222–3456</string>
+    <string name="securityQuestionAuthDeniedButtonCall1416">1–416–983–5393</string>
+    <string name="securityQuestionAuthDeniedButtonCall">Call</string>
+    <string name="securityQuestionMFASetupRequiredPageHeader">Secure Login</string>
+    <string name="securityQuestionMFASetupRequiredCopy">Additional setup required to login to your account</string>
+    <string name="securityQuestionMFASetupRequiredMessageCopy">NEED MESSAGE FROM PRODUCTION</string>
+    <string name="securityQuestionMFASetupRequiredButtonGoToEW">Go to EasyWeb</string>
+    <string name="securityQuestionMFASetupRequiredButtonGoToWB">Go to WebBroker</string>
+    <string name="securityQuestionAuthDeniedPageHeader">Authentication Denied</string>
+    <string name="securityQuestionPageHeader">Security Question</string>
+    <string name="mfaAuthDeniedMessage">That\'s not the secure answer on file. Is there another one that comes to mind?</string>
+    <string name="mfaSetupRequiredMessage">To log in from a mobile device, a secondary security question is required. Please log in to your EasyWeb or WebBroker account to create one. </string>
+    <string name="mfa_info_string">For additional security, please answer the following question</string>
+    <string name="UNKNOWN"><![CDATA[Final status of your request is not known. Inquire on your account to determine if your request was successful.]]></string>
+
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item>Home</item>
+        <item>Accounts</item>
+        <item>Transfers</item>
+        <item>Bills</item>
+        <item>Mobile Payment</item>
+        <item>Mobile Deposit</item>
+        <item>Investing</item>
+        <item>Cross-Border Banking</item>
+        <item>Preferences</item>
+        <item>TD Locations</item>
+        <item>Contact TD</item>
+        <item>Send Feedback</item>
+        <item>FAQ</item>
+        <item>Privacy &amp; Security</item>
+        <item>Legal</item>
+        <item>Important Information</item>
+    </string-array>
+
+    <!-- Strings for Cash Flow -->
+    <string name="lab_title">TD Lab</string>
+    <string name="app_title">Pay Yourself First</string>
+    <string name="app_name">Pay Yourself First</string>
+    <string name="app_description">TD Pay Yourself First helps customers understand their cash flow, overcoming a barrier that prevents many from starting to save.  Using your TD EasyWeb login, this prototype analyzes your account to show historical and current cash flow – and simulates setting up an automated recurring transfer to ‘pay yourself first’ through savings.  Generic sample data is also provided. \n \n <i><small>TD Lab prototype disclaimer:  Some aspects of the user experience have been intentionally omitted. Due to limited OS/device testing, device issues are expected - please record all feedback in the store comments, and include OS/device information in bug reports.  Thank you!</small></i></string>
+    <string name="action_settings">Home</string>
+    <string name="hello_world">Christie M</string>
+    <string name="title_activity_summary">Cash Flow</string>
+    <string name="title_activity_pyf_setup">Pay Yourself First</string>
+    <string name="title_activity_income_expense_list">Cash Flow</string>
+    <string name="pay_yourself_first">Pay Yourself First</string>
+    <string name="call_to_action_learn_more">Swipe right to continue…</string>
+    <string name="call_to_action_get_started">Swipe right to get started…</string>
+    <string name="welcome">Welcome to</string>
+    <string name="deposit">Incomes</string>
+    <string name="expenses">Expenses</string>
+    <string name="income_introduction"><![CDATA[Track your monthly pending & \n completed deposits]]></string>
+    <string name="expenses_introduction"><![CDATA[Track your monthly pending & \n completed expenses]]></string>
+    <string name="pyfBottomButton">Save PYF Amount</string>
+    <string name="pyf_intro_how_to">We have recommended on setting your PYF amount to 10% of your monthly income and pre-authorize to withdraw into your savings account at the beginning of every month.</string>
+    <string name="pyf_explanation">Make it a habit to put money into your savings account first - as soon as you get paid, and before you have time to spend it on other things</string>
+    <string name="back_to_the_tracker">Take me back to the tracker</string>
+    <string name="pyf_eula_title">Proof of Concept Employee Disclosure &amp; Acknowledgement</string>
+    <string name="pyf_eula">Thank you for indicating your willingness to participate in our limited time proof of concept pilot for Pay Yourself First (the "Pilot"). You will be receiving specific instructions on how to fully partifipate in the Pilot under separate cover. Before you "sign on" to participate, we want to take this opportunity to provide you with some additional information and to explain the terms of the Pilot to you (the "Terms"). By clocking the "Accept" button, you are taken to have read and agreed to this Proof of Concept Employee Disclosure &amp; Acknowledgement.\n\n1. Pay Yourself First involves the introduction and integration of a new feature in a test TD Beta mobile app. Primarily this new feature will enable the test TD Beta mobile app user to have their TD account information analyzed to produce reports on historical and current cash flow. Through the analysis of your account information, this feature will simulate an automatic recurring transfer to "pay yourself" through savings.\n\n2. For the purpose of this proof of concept Pilot only, you will be required to download a test TD Beta mobile App to your mobile device. We strongly encourage you to change the EasyWeb password and, if applicable, the username or alias you use in connection with your TD Access Card both prior to using this service and immediately following.</string>
+    <string name="congratulation">Congratulations!</string>
+    <string name="social_hub_intro">Tap the <b>Social Hub</b> Icon below to take a look. While you are there, you can see how your friends are saving</string>
+    <string name="pay_yourself_setup_successful_message"><![CDATA[You have successfully set up your PYF amount & received an award]]></string>
+    <string name="social_hub_app_name">Social Hub App</string>
+
+</resources>
